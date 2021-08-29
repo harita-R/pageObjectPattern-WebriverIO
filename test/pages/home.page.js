@@ -11,7 +11,6 @@ class HomePage extends Page{
         //page actions:  
         
         async isDashboardHeaderExist () {
-        //   await this.dashboardHeader.waitForDisplayed({ timeout: 3000 } );
           return await this.dashboardHeader.isDisplayed();  
         }
  
